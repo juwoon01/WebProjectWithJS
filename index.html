@@ -3,102 +3,50 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="중고 거래 사이트">
+	<meta name="description" content="BTS 굿즈 거래 사이트">
 
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
 
-	<title>중고 거래 사이트</title>
+	<title>BTS 굿즈 거래 사이트</title>
 </head>
 
 <body>
 	<header class="header">
 		<div class="nav_wrap">
-			<a class="home" href="index.html">ANJUWON</a>
+			<a class="home" href="index.html">BTS MD</a>
 			<nav class="nav">
-				<a href="HTML/study.html">STUDY</a>
-				<a href="HTML/hobby.html">HOBBY</a>
-				<a href="HTML/contact.html">CONTACT</a>
-				<a href="HTML/guest.html">GUEST</a>
+				<a href="HTML/study.html">앨범</a>
+				<a href="HTML/hobby.html">포토카드</a>
+				<a href="HTML/contact.html">포스터</a>
+				<a href="HTML/guest.html">인형/피규어</a>
+				<a href="HTML/guest.html">응원도구</a>
+				<a href="HTML/guest.html">패션잡화</a>
+				<a href="HTML/guest.html">기타</a>
 			</nav>
+			<button class="singbt">Sing In</button>
 		</div>
+
 	</header>
 
-	<section class="intro_bg">
-		<div class="welcome">
-			<h1>WELCOME TO MY FIRST WEB PROJECT</h1>
-			<p>#첫 웹프로젝트 #자기소개 #포트폴리오</p>
+	<section class="main_slider">
+		<div class="slider_wrap">
+			<ul class="slider">
+				<li><img src="./Images/test01.jpg"></li>
+				<li><img src="./Images/test02.jpg"></li>
+				<li><img src="./Images/test03.jpg"></li>
+			</ul>
+			<div class="slider_btn" id="next"><span>▶</span></div>
+			<div class="slider_btn" id="previous"><span>◀</span></div>
+
 		</div>
 	</section>
+	<script type="text/javascript" src="./Script/slider.js"></script>
 
-
-	<div class="profile_wrap">
-		<section class="profile">
-			<h2 class="section_head">PROFILE</h2>
-			<div class="div_left">
-				<img src="./Images/profile_photo.jpg" alt="프로필 사진" class="profile_img">
-			</div>
-
-			<div class="div_right">
-				<h2>Information</h2>
-				<ul class="info_list">
-					<li>
-						<span>이름: </span>
-						안주원(An Ju Won)
-					</li>
-					<li>
-						<span>나이: </span>
-						1997.08.16(24세)
-					</li>
-					<li>
-						<span>연락처: </span>
-						010-5443-4408
-					</li>
-					<li>
-						<span>주소: </span>
-						충남 아산시 송악면
-					</li>
-					<li>
-						<span>이메일: </span>
-						juwoon01@naver.com
-					</li>
-					<li>
-						<span>전공: </span>
-						국립공주대학교 소프트웨어전공 졸업예정
-					</li>
-					<li>
-						<span>자격증: </span>
-						운전면허 1종 보통, 정보처리기사
-					</li>
-				</ul>
-				<h2>Introduce</h2>
-				<p>
-					안녕하세요. <br>
-					항상 창의적이고 새로운 것을 배우고 싶어하는 신입 개발자 안주원입니다.
-				</p>
-			</div>
-		</section>
-	</div>
-
-
-
-	<div class="location">
-		<h2 class="section_head">I'm Living In</h2>
-
-		<div class="text_wrap">
-			<p class="loc_text">
-				제가 살고 있는 곳은 계곡과 소나무에 둘러 쌓인 산중턱입니다.
-				<br>
-				마트나 편의점을 가려면 자동차를 타고 20분은 나가야합니다.
-				<br>
-				때로는 불편하고 외롭지만 시원한 공기와 자연을 벗삼아 살아가고 있습니다.
-			</p>
+	<section class="recommend">
+		<div class="recommend_wrap">
+				<span>BTS MD 추천상품</span>
 		</div>
-
-		<div class="map_wrap">
-			<iframe class="map"
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.404693187673!2d126.96898341524535!3d36.71284077996655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357add48d93bfc41%3A0xab27e3c24f3430d!2z7Lap7LKt64Ko64-EIOyVhOyCsOyLnCDshqHslYXrqbQg7Iah7JWF66GcNDAw67KI6ri4IDExNy0yNQ!5e0!3m2!1sko!2skr!4v1593007407783!5m2!1sko!2skr"
-				width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		</div>
+	</section>
 
 		<table class="photo_table">
 			<tr>
