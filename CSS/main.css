@@ -146,14 +146,14 @@ body {
     font-weight: bold;
 }
 
-.card_wrap{
+.recommend_card_wrap{
   display: flex;
   width: 100%;
   height: 360px;
   margin-top: 20px;
 }
 
-.card{
+.recommend_card{
   height: 360px;
   width: 240px;
   background-color: rgb(249, 249, 249);
@@ -163,19 +163,19 @@ body {
   margin-right: 23px;
 }
 
-.card_img_wrap{
+.recommend_card_img_wrap{
   margin: 0 auto;
   margin-top: 30px;
 }
 
-.card_img{
+.recommend_card_img{
   width: 194px;
   height: 194px;
   border-radius: 70%;
   overflow: hidden;
 }
 
-.card_text_wrap{
+.recommend_card_text_wrap{
   display: flex;
   flex-direction: column;
   height: 110px;
@@ -194,17 +194,19 @@ body {
   margin-top: 30px;
 }
 
-.card_info_wrap{
+.recommend_card_info_wrap{
   display: flex;
   height: 30px;
   width: 80%;
   margin-top: 20px;
 
 }
+
 .cost{
   font-size: 18px;
   font-weight: bold;
 }
+
 .cost::after{
   content: "원";
   font-size: 13px;
@@ -244,14 +246,61 @@ body {
   cursor: pointer;
 }
 
-.photo_table {
+.categoryo_table_wrap {
+  display: flex;
+  flex-wrap: wrap;
   width: 1030px;
   margin: 30px auto;
 }
+.categoryo_table {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.table_img {
-  height: 360px;
-  width: 240px;
+.card_wrap{
+  width: 195px;
+  margin-right: 11px;
+  margin-bottom: 11px;
+}
+.card{
+  border: 1px solid rgb(238, 238, 238);
+  background: rgb(255, 255, 255);
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card_img {
+  position: relative;
+  width: 100%;
+  height: 194px;
+}
+
+.card_text_wrap{
+  padding: 15px 10px;
+  height: 80px;
+}
+
+.card_info{
+  position: relative;
+  font-size: 14px;
+  padding-bottom: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card_cost{
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  height: 20px;
+}
+
+.card_cost::after{
+  content: "원";
+  font-size: 13px;
+
 }
 
 .footer {
