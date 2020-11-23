@@ -112,16 +112,21 @@ body {
   width: 1030px;
   margin: 0 auto;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content_wrap{
+  display: flex;
 
 }
 
 .card_wrap{
-  width: 195px;
-  margin-right: 11px;
-  margin-bottom: 11px;
+  width: 250px;
+  height: 350px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
 }
 .card{
   border: 1px solid rgb(238, 238, 238);
@@ -129,17 +134,19 @@ body {
   display: block;
   text-decoration: none;
   cursor: pointer;
+  width: 100%;
+  height: 100%;
 }
 
 .card_img {
   position: relative;
   width: 100%;
-  height: 194px;
+  height: 250px;
 }
 
 .card_text_wrap{
   padding: 15px 10px;
-  height: 80px;
+  height: 100px;
 }
 
 .card_info{
@@ -162,6 +169,40 @@ body {
   content: "원";
   font-size: 13px;
 
+}
+
+.pageing{
+  width: 1030px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pageing ul{
+  display: inline-block;
+  margin: 0 20px 0 15px;
+  vertical-align: top;
+  list-style: none;
+}
+
+.pageing li{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  line-height: 30px;
+  text-align: center;
+  list-style: none;
+}
+
+.pageing a{
+  display: block;
+  height: 30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: inherit;
+  background: rgb(255, 80, 88);
+  color: #fff;
 }
 
 .footer {
