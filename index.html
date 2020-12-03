@@ -6,7 +6,7 @@
 	<meta name="description" content="BTS 굿즈 거래 사이트">
 
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
-
+	<link rel="stylesheet" type="text/css" href="CSS/header.css">
 	<title>BTS 굿즈 거래 사이트</title>
 </head>
 
@@ -20,10 +20,9 @@
 				<a href="HTML/contact.html">포스터</a>
 				<a href="HTML/guest.html">인형/피규어</a>
 				<a href="HTML/guest.html">응원도구</a>
-				<a href="HTML/guest.html">패션잡화</a>
 				<a href="HTML/guest.html">기타</a>
 			</nav>
-			<button class="signbt">Sign In</button>
+			<button class="signbt" onclick="goToLoginFromIndex()"></button>
 		</div>
 
 	</header>
@@ -40,7 +39,7 @@
 
 		</div>
 	</section>
-	<script type="text/javascript" src="./Script/slider.js"></script>
+
 
 	<section class="recommend">
 		<div class="recommend_wrap">
@@ -128,7 +127,7 @@
 									</div>
 							</a>
 						</div>
-						
+
 						<div class="card_wrap">
 							<a class="card">
 									<img src="./Images/recommend01.jpg" class="card_img">
@@ -485,80 +484,7 @@
 										</div>
 									</div>
 
-									<div class="category_title borderTop">패션잡화
-										<a href="#" class="viewAll" >전체보기</a>
-									</div>
-									<div class="categoryo_table_wrap">
-										<div class="categoryo_table">
 
-												<div class="card_wrap">
-													<a class="card">
-															<img src="./Images/recommend01.jpg" class="card_img">
-															<div class="card_text_wrap">
-																<div class="card_info">
-																	BTS 포토카드
-																</div>
-																<div class="card_cost">
-																	40,000
-																</div>
-															</div>
-													</a>
-												</div>
-												<div class="card_wrap">
-													<a class="card">
-															<img src="./Images/recommend01.jpg" class="card_img">
-															<div class="card_text_wrap">
-																<div class="card_info">
-																	BTS 포토카드
-																</div>
-																<div class="card_cost">
-																	40,000
-																</div>
-															</div>
-													</a>
-												</div>
-												<div class="card_wrap">
-													<a class="card">
-															<img src="./Images/recommend01.jpg" class="card_img">
-															<div class="card_text_wrap">
-																<div class="card_info">
-																	BTS 포토카드
-																</div>
-																<div class="card_cost">
-																	40,000
-																</div>
-															</div>
-													</a>
-												</div>
-												<div class="card_wrap">
-												 <a class="card">
-													 <img src="./Images/recommend01.jpg" class="card_img">
-														 <div class="card_text_wrap">
-															 <div class="card_info">
-																 BTS 포토카드
-															 </div>
-															 <div class="card_cost">
-																 40,000
-															 </div>
-														 </div>
-												 </a>
-												</div>
-												<div class="card_wrap">
-												 <a class="card">
-														 <img src="./Images/recommend01.jpg" class="card_img">
-														 <div class="card_text_wrap">
-															 <div class="card_info">
-																 BTS 포토카드
-															 </div>
-															 <div class="card_cost">
-																 40,000
-															 </div>
-														 </div>
-												 </a>
-											  </div>
-
-											</div>
-										</div>
 
 										<div class="category_title borderTop">기타
 											<a href="#" class="viewAll" >전체보기</a>
@@ -646,7 +572,8 @@
 		<p> Copyright© JuWon An, All rights reserved.</p>
 	</footer>
 
-
+	<script type="text/javascript" src="./Script/slider.js"></script>
+	<script type="text/javascript" src="./Script/common.js"></script>
 </body>
 
 </html>
