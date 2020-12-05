@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="BTS 굿즈 거래 사이트">
+
+	<link rel="stylesheet" type="text/css" href="../CSS/header.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/findID.css">
+	<title>회원가입 페이지</title>
+</head>
+
+
+  <body>
+    <header class="header">
+  		<div class="nav_wrap">
+  			<a class="home" href="../index.html">BTS MD</a>
+  			<nav class="nav">
+  				<a href="HTML/album.html">앨범</a>
+  				<a href="HTML/hobby.html">포토카드</a>
+  				<a href="HTML/contact.html">포스터</a>
+  				<a href="HTML/guest.html">인형/피규어</a>
+  				<a href="HTML/guest.html">응원도구</a>
+  				<a href="HTML/guest.html">패션잡화</a>
+  				<a href="HTML/guest.html">기타</a>
+  			</nav>
+				<button class="signbt" onclick="goToLogin()"></button>
+  		</div>
+  	</header>
+
+		<div class="signup_container">
+			<div class="signup_form">
+				<h1 style="margin-bottom: 40px">아이디 찾기.</h1>
+
+				<input type="text" id="signup_name" class="signup_input" placeholder="이름">
+				<input type="text" id="signup_phone" class="signup_input" placeholder="전화번호">
+				<button type="button" class="sigup_bt" onclick="getCertification()">인증번호 받기</button>
+
+				<input type="text" id="signup_certification" class="signup_input" placeholder="인증번호">
+				<button type="button" class="sigup_bt" onclick="certification_chk()">아이디 찾기</button>
+
+			</div>
+		</div>
+    <footer class="footer">
+  		<p> Copyright© JuWon An, All rights reserved.</p>
+  	</footer>
+
+    <script type="text/javascript" src="../Script/common.js"></script>
+		    <script type="text/javascript" src="../Script/findID.js"></script>
+  </body>
+
+  </html>

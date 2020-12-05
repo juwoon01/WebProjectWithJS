@@ -53,8 +53,16 @@ function loginSetting(){
 }
 
 function logOut(){
+  if(confirm("로그아웃 하시겠습니까?") == true){
     localStorage.setItem("isLogin", "false");
-    window.location.reload();
+    if(document.location.href == "file:///C:/Users/82105/Desktop/%EC%BD%94%EB%94%A9/%EC%9B%B9%ED%94%842%ED%95%99%EA%B8%B0/index.html"){
+      location.href= "./index.html";
+    }
+    else{
+      location.href= "../index.html";
+    }
+  }
+
 }
 
 function loginButtonText(){

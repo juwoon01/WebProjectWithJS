@@ -47,6 +47,10 @@ function signup_chk(){
     alert("이름에 특수문자는 들어갈 수 없습니다.");
     return;
   }
+  else if(pattern_chk2.test(signup_name)){
+    alert("이름에 숫자는 들어갈 수 없습니다.");
+    return;
+  }
   else if(signup_birth.length == 0){
     alert("생년월일을 입력해주세요.");
     return;

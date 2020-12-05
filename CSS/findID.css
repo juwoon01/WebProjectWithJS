@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(249, 249, 249);
+  margin: 0;
+}
+
+.signup_container{
+  margin: 180px 0 100px;
+  width: 100%;
+}
+
+.signup_form{
+  width: 570px;
+  padding: 60px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px 0px;
+  background: #ffffff;
+}
+
+
+.signup_input{
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  box-shadow: rgb(63, 62, 75) 0px 1px 0px 0px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+
+.sigup_bt{
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  background: #ea4c89;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
