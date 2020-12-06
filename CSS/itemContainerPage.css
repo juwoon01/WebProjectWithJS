@@ -4,67 +4,6 @@ body {
   margin: 0;
 }
 
-.header {
-  background-color: white;
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  width: 100%;
-  height: 100px;
-  box-shadow: 5px 5px 5px rgba(154, 88, 93, 0.2);
-}
-
-.nav_wrap {
-  width: 1030px;
-  margin: 0 auto;
-  height: 80px;
-  margin-top: 10px;
-  display: flex;
-}
-
-.home {
-  font-size: 22px;
-  line-height: 80px;
-  color: #efa6c1;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: 'Poppins';
-  margin-right: 0.35px
-}
-
-.nav {
-  width: 800px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav a {
-  font-size: 22px;
-  margin-left: 30px;
-  line-height: 80px;
-  color: #c8b2d6;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: 'Poppins';
-}
-
-.singbt{
-  width: 90px;
-  height: 50px;
-  margin: auto 0;
-  margin-left: 55px;
-  float: left;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background: #ea4c89;
-  cursor: pointer;
-  border: none;
-  border-radius: 8px;
-  font-size: 14px;
-}
-
 .sort{
   width: 1030px;
   margin: 0 auto;
@@ -203,18 +142,4 @@ body {
   color: inherit;
   background: rgb(255, 80, 88);
   color: #fff;
-}
-
-.footer {
-  background: #393939;
-  width: 100%;
-  height: 30px;
-}
-
-.footer>p {
-  line-height: 30px;
-  font-family: 'Nanum Gothic';
-  font-size: 15px;
-  text-align: center;
-  color: #9c9c9c;
 }
