@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="BTS 굿즈 거래 사이트">
+
+	<link rel="stylesheet" type="text/css" href="../CSS/header.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/product.css">
+	<title>BTS 굿즈 거래 사이트</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="nav_wrap">
+			<a class="home" href="../index.html">BTS MD</a>
+			<nav class="nav">
+				<a href="../HTML/album.html">앨범</a>
+				<a href="../HTML/photo.html">포토카드</a>
+				<a href="../HTML/poster.html">포스터</a>
+				<a href="../HTML/figure.html">인형/피규어</a>
+				<a href="../HTML/cheering.html">응원도구</a>
+				<a href="../HTML/otherItems.html">기타</a>
+			</nav>
+			<button class="signbt"  onclick="goToLoginFromIndex()">Sign In</button>
+		</div>
+	</header>
+
+	<section class="product">
+		<div class="product_wrap">
+			<div class="product_header">
+				<div class="product_img_wrap">
+						<img class="product_img" src="../Images/recommend01.jpg" alt="제품 이미지">
+				</div>
+
+				<div class="product_info_wrap">
+					<div class="product_info_title">
+						<span class="product_name">BTS 포토카드</span>
+						<span class="product_cost">40,000</span>
+					</div>
+
+					<div class="product_simple_info_wrap">
+						<div class="product_simple_info">
+							<span class="product_status">새상품</span>
+						</div>
+
+						<div class="product_simple_info">
+							<span class="product_exchange">교환불가</span>
+						</div>
+
+						<div class="product_simple_info">
+							<span class="product_delivery">배송비 포함</span>
+						</div>
+
+						<div class="product_simple_info">
+							<span class="product_area">충남 천안시 두정동</span>
+						</div>
+
+					</div>
+
+					<div class="product_bnt_wrap">
+						<button class="product_btn connect" type="button" onclick="preparing()" >연락하기</button>
+						<button class="product_btn basket" type="button" onclick="preparing()">장바구니</button>
+						<button class="product_btn purchase" type="button" onclick="preparing()">즉시구매</button>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="product_detail_info_wrap">
+				<h2>상세정보</h2>
+				<div class="product_detail_info">사진 전체 가격입니다.
+배송비가 포함된 가격입니다.
+천안 두정동 직거래 가능하고 택배 배송도 가능합니다.
+연락주세요~!
+				</div>
+			</div>
+
+
+			<div class="product_inquiry_wrap">
+				<h2>상품문의</h2>
+				<textarea onkeyup="countText()"class="product_inquiry_textarea" id="inquiry_textarea" rows="6" maxlength="100" placeholder="상품문의 입력"></textarea>
+				<div class="product_inquiry_bottom">
+					<div class="product_inquiry_textNum" id="textNum">
+						0/100
+					</div>
+					<button onclick="upload()" class="product_inquiry_bnt" type="button" name="button">등록</button>
+				</div>
+			</div>
+
+			<div class="product_inquiry_list_wrap" id="list_wrap">
+				<div class="product_inquiry_list">
+					<div class="user_name">관리자</div>
+					<div class="product_inquiry_text">
+			[공지글] 나눔시에 해당글 찜 및 팔로우는 허용이 되며 홍보글,
+			타 사이트/어플 가입 등을 유도하는 행위는 이용정책에 위반되어 제재됩니다.
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+
+	<footer class="footer">
+		<p> Copyright© JuWon An, All rights reserved.</p>
+	</footer>
+
+  <script type="text/javascript" src="../Script/common.js"></script>
+	<script type="text/javascript" src="../Script/inquiry.js"></script>
+</body>
+
+</html>

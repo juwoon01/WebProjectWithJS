@@ -1,0 +1,205 @@
+body{
+  margin: 0;
+}
+
+.product{
+  width: 100%;
+  margin-top: 120px;
+}
+.product_wrap{
+  display: flex;
+  flex-direction: column;
+}
+.product_header{
+  width: 1030px;
+  margin: 0 auto;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 25px 0;
+  display: flex;
+}
+
+.product_img_wrap{
+  width: 430px;
+  height: 430px;
+  margin-right: 40px;
+}
+
+.product_img{
+  width: 100%;
+  height: 100%;
+}
+
+.product_info_wrap{
+  width: 560px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product_info_title{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.product_name{
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.product_cost{
+  font-size: 40px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.product_cost::after{
+  content: "원";
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.product_simple_info_wrap{
+  margin-top: 20px;
+
+}
+
+.product_simple_info{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.product_status::before{
+  content: "상품상태:";
+  margin-right: 20px;
+  color: rgb(153, 153, 153);
+}
+
+.product_exchange::before{
+  content: "교환여부:";
+  margin-right: 20px;
+  color: rgb(153, 153, 153);
+}
+
+.product_delivery::before{
+  content: "배송비용:";
+  margin-right: 20px;
+  color: rgb(153, 153, 153);
+}
+
+.product_area::before{
+  content: "거래지역:";
+  margin-right: 20px;
+  color: rgb(153, 153, 153);
+}
+
+.product_bnt_wrap{
+  margin-top: 37px;
+}
+
+.product_btn{
+  width: 172px;
+  height: 56px;
+  font-size: 18px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.connect{
+  background: rgb(255, 164, 37);
+  color: rgb(255, 255, 255);
+}
+
+.basket{
+  background: rgb(200, 200, 200);
+  color: rgb(255, 255, 255);
+}
+
+.purchase{
+  background: rgb(247, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.product_detail_info_wrap{
+  width: 1030px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.product_detail_info_wrap > h2{
+    border-bottom: 1px solid rgb(128, 128, 128);
+    padding: 10px 0;
+}
+
+.product_detail_info{
+  height: 430px;
+  width: 100%;
+  font-size: 20px;
+  white-space: pre-wrap;
+}
+
+.product_inquiry_wrap{
+  width: 1030px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.product_inquiry_wrap > h2{
+    border-bottom: 1px solid rgb(128, 128, 128);
+    padding: 10px 0;
+}
+
+.product_inquiry_textarea{
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid rgb(153, 153, 153);
+}
+
+.product_inquiry_bottom{
+  width: 1008px;
+  border: 1px solid rgb(153, 153, 153);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.product_inquiry_textNum{
+}
+
+.product_inquiry_bnt{
+  border: none;
+  height: 32px;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 13px;
+  color: rgb(136, 136, 136);
+  cursor: pointer;
+  float: right;
+}
+
+.product_inquiry_list_wrap{
+  width: 1030px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.product_inquiry_list{
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.user_name{
+    color: rgb(153, 153, 153);
+    margin-bottom: 10px;
+}
