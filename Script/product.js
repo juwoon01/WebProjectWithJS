@@ -20,7 +20,7 @@ function upload(){
 
   span.innerText="관리자";
   text_div.innerText = inquiry_textarea_now;
-  
+
   list_div.classList.add("product_inquiry_list");
   span.classList.add("user_name");
   text_div.classList.add("product_inquiry_text");
@@ -30,3 +30,15 @@ function upload(){
   list_wrap.appendChild(list_div);
 
 }
+
+function init(){
+  if(localStorage.getItem('obj')){
+    const obj = JSON.parse(localStorage.getItem('obj'));
+
+    document.getElementById('product_img').setAttribute('src',"."+obj.img);
+    document.getElementById('product_name').innerText = obj.name;
+    document.getElementById('product_cost').innerText = obj.cost;
+  }
+}
+
+init();

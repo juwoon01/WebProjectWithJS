@@ -69,8 +69,6 @@ function loginButtonText(){
   if(isLogin == "true"){
     signButton.innerText = "Logout";
     signButton.setAttribute("onclick", "logOut()");
-
-
   }
   else{
     signButton.innerText = "Sign In";
@@ -82,9 +80,9 @@ function loginButtonText(){
       signButton.setAttribute("onclick", "goToLogin()");
     }
 
-
   }
 }
+
 
 function init() {
   isLogin = localStorage.getItem("isLogin");
