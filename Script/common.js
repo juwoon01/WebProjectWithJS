@@ -84,6 +84,7 @@ function loginButtonText(){
 }
 
 
+
 function init() {
   isLogin = localStorage.getItem("isLogin");
   loginButtonText();

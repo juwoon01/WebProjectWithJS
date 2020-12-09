@@ -34,10 +34,17 @@ function upload(){
 function init(){
   if(localStorage.getItem('obj')){
     const obj = JSON.parse(localStorage.getItem('obj'));
+    if(obj.img[1]=='.'){
+      document.getElementById('product_img').setAttribute('src',obj.img);
+      document.getElementById('product_name').innerText = obj.name;
+      document.getElementById('product_cost').innerText = obj.cost;
+    }
+    else{
+      document.getElementById('product_img').setAttribute('src',"."+obj.img);
+      document.getElementById('product_name').innerText = obj.name;
+      document.getElementById('product_cost').innerText = obj.cost;
+    }
 
-    document.getElementById('product_img').setAttribute('src',"."+obj.img);
-    document.getElementById('product_name').innerText = obj.name;
-    document.getElementById('product_cost').innerText = obj.cost;
   }
 }
 

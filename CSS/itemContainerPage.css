@@ -57,11 +57,11 @@ body {
 
 .content_wrap{
   display: flex;
-
+  flex-wrap: wrap;
 }
 
 .card_wrap{
-  width: 250px;
+  width: 247px;
   height: 350px;
   margin-left: 10px;
   margin-bottom: 30px;
