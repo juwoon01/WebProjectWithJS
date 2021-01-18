@@ -43,7 +43,7 @@ function goToLogin(){
 }
 
 function goToLoginFromIndex(){
-  location.href="HTML/login.html";
+  location.href="./HTML/login.html";
 }
 
 function loginSetting(){
@@ -75,7 +75,7 @@ function loginButtonText(){
 
     if(document.location.href == "file:///C:/Users/82105/Desktop/%EC%BD%94%EB%94%A9/%EC%9B%B9%ED%94%842%ED%95%99%EA%B8%B0/index.html"){
       signButton.setAttribute("onclick", "goToLoginFromIndex()");
-    }
+    }//이거 불가능
     else{
       signButton.setAttribute("onclick", "goToLogin()");
     }
